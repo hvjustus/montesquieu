@@ -61,6 +61,19 @@ main {
     gap: 2rem;
 }
 
+.mapa-main{
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.mapa-main iframe{
+    border: 2px solid black;
+    border-radius: 1.5rem;
+}
+
 .img-main img {
     height: 80vh;
 }
@@ -69,6 +82,10 @@ main {
     font-size: 75%;
     text-align: right;
     color: #777;
+}
+
+.entrevista{
+    margin: auto auto;
 }
 
 .top-container {
